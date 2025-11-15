@@ -1,0 +1,12 @@
+path: ./dataset
+
+train:
+  - images/train
+  - images/new
+  - images/annotated_pdfs
+val: images/val
+
+names:
+  0: signature
+  1: stamp
+  2: qr

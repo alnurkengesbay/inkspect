@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*.log
+.env
+venv/
+.env.local
+
+# Data artifacts
+pdfs/
+pdfs_jpeg/
+dataset/
+runs_custom/
+selected_annotations.json
+script/backend/media/
+script/media/
+
+# Model weights & checkpoints
+*.pt
+
+# Tooling
+poppler/
+
+# Frontend build artifacts
+script/frontend/node_modules/
+script/frontend/dist/
+script/frontend/.vite/
+script/frontend/.parcel-cache/
+
+# Python cache
+*.pyo
+
+# VS Code
+.vscode/
